@@ -26,5 +26,6 @@ def find_the_cheese(foods)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   foods.find {|food| cheese_types.include?(food)}
 
+  #why doesn't food.include?(cheese_types) work?
 
 end
