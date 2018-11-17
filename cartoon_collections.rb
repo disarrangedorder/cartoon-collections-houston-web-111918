@@ -11,7 +11,6 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
   planeteer_calls.collect { |calls|
     calls = calls.capitalize + "!"
-
   }
 end
 
@@ -25,7 +24,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-
+  array.include(cheese_types)
 
 
 end
