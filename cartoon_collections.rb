@@ -27,5 +27,6 @@ def find_the_cheese(foods)# code an argument here
   foods.find {|food| cheese_types.include?(food)}
 
   #why doesn't food.include?(cheese_types) work?
+  #.find finds the first "true" value
 
 end
